@@ -1,0 +1,15 @@
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/bin/Debug/net7.0/TestProject
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/bin/Debug/net7.0/TestProject.deps.json
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/bin/Debug/net7.0/TestProject.runtimeconfig.json
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/bin/Debug/net7.0/TestProject.dll
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/bin/Debug/net7.0/TestProject.pdb
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.csproj.AssemblyReference.cache
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.AssemblyInfoInputs.cache
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.AssemblyInfo.cs
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.csproj.CoreCompileInputs.cache
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.dll
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/refint/TestProject.dll
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.pdb
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/TestProject.genruntimeconfig.cache
+/Users/aparbhandari/Documents/Ambika Curriculum/visual_programming/2082CSharp/TestProject/obj/Debug/net7.0/ref/TestProject.dll
