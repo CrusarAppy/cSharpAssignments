@@ -20,7 +20,7 @@ class ExamQuestionFirstTerm2082
             employees[i].Years = Convert.ToInt32(Console.ReadLine());
         }
 
-        Console.WriteLine("\n--- Annual Bonus Report ---");
+        Console.WriteLine("\n Annual Bonus Report ");
 
         foreach (var emp in employees)
         {

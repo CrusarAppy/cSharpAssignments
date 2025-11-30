@@ -148,18 +148,18 @@
 // Gita
 // ```
 
-// ---
+// 
 
 //  ⚙️ 7️⃣ Rules of `params`
 
 // | Rule                                                    | Description                                   |
-// | ------------------------------------------------------- | --------------------------------------------- |
+// | - |  |
 // | ✅ Only one `params` per method                      | You can’t have two                            |
 // | ✅ Must be the last parameter                        | `void Print(string msg, params int[] nums)` ✅ |
 // | ✅ Can be any type                                   | `int`, `string`, `object`, even custom class  |
 // | 🚫 You can’t have anything after `params` parameter | Compiler error                                |
 
-// ---
+// 
 
 // 8️⃣ `params` with Other Parameters
 
@@ -189,12 +189,12 @@
 // Gita
 // ```
 
-// ---
+// 
 
 //  🔍 9️⃣ Difference Between Normal Array and `params` Array
 
 // | Feature                  | Normal Array Parameter                        | `params` Array                  |
-// | ------------------------ | --------------------------------------------- | ------------------------------- |
+// |  |  | - |
 // | Declaration              | `void Print(int[] arr)`                       | `void Print(params int[] arr)`  |
 // | Call Syntax              | Must create array: `Print(new int[] {1,2,3})` | Just list items: `Print(1,2,3)` |
 // | Flexibility              | Fixed number of arguments                     | Variable number of arguments    |
@@ -202,7 +202,7 @@
 // | Can pass existing array? | Yes                                           | Yes (same as normal)            |
 // | Can be empty?            | No (null error if not created)                | Yes (0-length array allowed)    |
 
-// ---
+// 
 
 //  🧠 10️⃣ Another Example (Mixed Types)
 
@@ -230,23 +230,23 @@
 
 // ✅ Here `object[]` allows mixed data types.
 
-// ---
+// 
 
 // 11️⃣ When to Use `params`
 
 // | Situation                         | Example                          |
-// | --------------------------------- | -------------------------------- |
+// |  | -- |
 // | Variable arguments                | `Sum(1, 2, 3, 4, 5)`             |
 // | Logging                           | `Log("Error", 404, "Not Found")` |
 // | Displaying multiple strings       | `Print("a", "b", "c")`           |
 // | Working with unknown count inputs | `Average(…)`, `Concat(…)`        |
 
-// ---
+// 
 
 //  ✅ 12️⃣ Summary
 
 // | Feature         | Description                                              |
-// | --------------- | -------------------------------------------------------- |
+// |  | -- |
 // | Keyword     | `params`                                                 |
 // | Purpose     | Allows a method to take variable number of arguments |
 // | Declaration | `void Method(params int[] arr)`                          |
@@ -255,12 +255,12 @@
 // | Rule        | Only one `params` parameter, must be last                |
 // | Difference  | More flexible and user-friendly than normal arrays       |
 
-// ---
+// 
 
 // 💡 In Short
 
 // > `params` arrays make your method flexible — so it can accept 0, 1, or many arguments
 // > without needing multiple overloads or manually creating arrays.
 
-// ---
+// 
 

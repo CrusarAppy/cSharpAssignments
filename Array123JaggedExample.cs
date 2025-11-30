@@ -155,7 +155,7 @@ public class Array123JaggedExample
 
         for (int i = 0; i < count; i++)
         {
-            Console.WriteLine($"\n--- 2D Array {i + 1} ---");
+            Console.WriteLine($"\n 2D Array {i + 1} ");
             Console.Write("Enter number of rows: ");
             int rows = int.Parse(Console.ReadLine());
             Console.Write("Enter number of columns: ");
@@ -177,7 +177,7 @@ public class Array123JaggedExample
         }
 
         // Display all 2D arrays
-        Console.WriteLine("\n--- Displaying Jagged 2D Arrays ---");
+        Console.WriteLine("\n Displaying Jagged 2D Arrays ");
         for (int i = 0; i < count; i++)
         {
             Console.WriteLine($"\n2D Array {i + 1}:");
@@ -201,7 +201,7 @@ public class Array123JaggedExample
 
         for (int i = 0; i < count; i++)
         {
-            Console.WriteLine($"\n--- 3D Array {i + 1} ---");
+            Console.WriteLine($"\n 3D Array {i + 1} ");
             Console.Write("Enter number of depth: ");
             int depth = int.Parse(Console.ReadLine());
             Console.Write("Enter number of rows: ");
@@ -226,7 +226,7 @@ public class Array123JaggedExample
             }   
         }
         // Display all 3D arrays
-        Console.WriteLine("\n--- Displaying Jagged 3D Arrays ---");
+        Console.WriteLine("\n Displaying Jagged 3D Arrays ");
         for (int i = 0; i < count; i++)
         {
             Console.WriteLine($"\n3D Array {i + 1}:");
@@ -244,6 +244,15 @@ public class Array123JaggedExample
             }
             
         }   
+    }
+    public void  DisplaySentence(params string[] sentence)
+    {
+        foreach(string n in sentence)
+            Console.Write($" {n }");
+    }
+    public void CallDisplaySentence()
+    {
+        DisplaySentence("Hey", "Donkey!","Where","are","you?");
     }
     public int Sum(params int[] numbers)
     {
@@ -301,7 +310,7 @@ public class Array123JaggedExample
             employees[i][2] = Console.ReadLine();
         }
 
-        Console.WriteLine("\n--- Annual Bonus Report ---");
+        Console.WriteLine("\n Annual Bonus Report ");
 
         for (int i = 0; i < employees.Length; i++)
         {

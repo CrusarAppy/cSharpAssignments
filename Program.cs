@@ -19,16 +19,21 @@ class Program
         // ArrayExample arrayExample = new ArrayExample();
         // arrayExample.doubleArrayRepresentation();
 
-       Array123JaggedExample array123JaggedExample = new Array123JaggedExample();
+    //    Array123JaggedExample array123JaggedExample = new Array123JaggedExample();
         //    array123JaggedExample.TwoDArray();
         //    array123JaggedExample.ThreeDArray();
         //    array123JaggedExample.Jagged1DArray();
         //    array123JaggedExample.Jagged2DArray();
         //    array123JaggedExample.Jagged3dArray();
         // array123JaggedExample.CallParamSum();
+        // array123JaggedExample.DisplaySentence();
 
-        ExamQuestionFirstTerm2082 examQuestionFirstTerm2082 = new ExamQuestionFirstTerm2082();
-        examQuestionFirstTerm2082.Question();
+        StringExercise stringExercise = new StringExercise();
+        stringExercise.StringMethodExample();
+        
+
+        // ExamQuestionFirstTerm2082 examQuestionFirstTerm2082 = new ExamQuestionFirstTerm2082();
+        // examQuestionFirstTerm2082.Question();
         // FunctionExample a = new FunctionExample();
         // a.FunctionNoArNoR();
         // a.Sum(4, "abc");
@@ -51,6 +56,7 @@ class Program
 
         //   subtract =operation.Subtract(number1, number2);
         // Console.WriteLine($"The Difference of two number is {subtract}");
+        
     }
      public  static int Add(int a, int b)
     {
